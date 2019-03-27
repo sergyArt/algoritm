@@ -1,0 +1,11 @@
+user@password
+user1@moon
+user2@password
+user3@star
+user4@password
+user5@star
+user6@moon
+user7@star
+user8@password
+user9@friends
+user10@moon
