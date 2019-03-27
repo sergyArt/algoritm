@@ -115,15 +115,9 @@ else:
 l = []
 with open('passlog.txt','r') as f:
     for line in f:
-        l.append(((line.split(sep='@'))[1]).replace('\n',''))
+        l.append(((line.split(sep=';'))[1]).replace('\n',''))
 from collections import Counter
-res = Counter(l)
-count = 1
-d = dict(res)
-for j in dict(res):
-    if count < 10:
-        print(j, d[j])
-    count+=1
+print(Counter(l).most_common(10))
 
 import random
 k = 5
