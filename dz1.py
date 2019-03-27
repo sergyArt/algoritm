@@ -90,7 +90,7 @@ if (ab+bc > ca) and (bc+ca > ab) and (ca+ab > bc):
 else:
     print('нет треугольника')
 
-
+#7
 
 year = int(input('Введите год: '))
 
@@ -99,6 +99,7 @@ if year % 4 != 0 or (year % 100 == 0 and year % 400 !=0):
 else:
     print('Високосный')
 
+#8
 
 a = int(input('Введите число a: '))
 b = int(input('Введите число b: '))
@@ -111,6 +112,7 @@ elif b>a and b<c:
 else:
     print('c в центре')
 
+#9
 
 l = []
 with open('passlog.txt','r') as f:
@@ -119,6 +121,8 @@ with open('passlog.txt','r') as f:
 from collections import Counter
 print(Counter(l).most_common(10))
 
+
+#10
 import random
 k = 5
 f = False
